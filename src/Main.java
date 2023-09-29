@@ -25,6 +25,7 @@ public class Main {
             System.out.print(itr.next() + " ");
         }
         System.out.println(" ");
+
         for (Iterator itr = deque.descendingIterator(); itr.hasNext();) {
             System.out.print(itr.next() + " ");
         }
